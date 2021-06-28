@@ -7,6 +7,8 @@ public class Decimales {
 		System.out.println("Los decimales son iguales? : "+dec);
 		
 		printMegaBytesAndKiloBytes(23090048);
+		
+		areEqualByThreeDecimalPlaces(12, 12);
 
 	}
 	
