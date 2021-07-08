@@ -6,7 +6,7 @@
       <class name="com.opensource.admin.qa.TC003_Admin_AddNewUser">
         <methods>
           <include name="beforeTest"/>
-          <include name="TC003_Admin_AddNewUser_Script"/>
+          <include name="TC001_AdminSearchEmployee_POM_Script"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- com.opensource.admin.qa.TC003_Admin_AddNewUser -->
