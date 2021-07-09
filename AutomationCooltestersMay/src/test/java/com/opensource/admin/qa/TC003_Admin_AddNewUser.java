@@ -20,7 +20,7 @@ public class TC003_Admin_AddNewUser {
 	}
 
 	@Test
-	public void TC003_Admin_AddNewUser_Script() {
+	public void TC003_Admin_AddNewUser_Script() throws InterruptedException {
 
 		// Data
 		String username = "Admin";
@@ -94,6 +94,7 @@ public class TC003_Admin_AddNewUser {
 		// Step 13 - Log out
 		Reporter.log("Log out");
 		driver.findElement(By.xpath("//a[@id=\"welcome\"]")).click();
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[contains(text(), 'Logout')]")).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
