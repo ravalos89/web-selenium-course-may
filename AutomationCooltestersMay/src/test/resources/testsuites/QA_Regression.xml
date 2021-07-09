@@ -3,7 +3,7 @@
 <suite name="Regression_QA" parallel="tests" thread-count="2">
   <test name="TC001">
     <classes>
-      <class name="com.opensource.admin.qa.TC001_AdminSearchEmployee_POM"/>
+      <class name="com.opensource.admin.qa.TC001_Admin_SearchEmployee_POM"/>
     </classes>
   </test> <!-- Test -->
     <test name="TC002">

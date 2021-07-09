@@ -10,7 +10,7 @@ import com.opensource.base.GlobalVariables;
 import com.opensource.base.SeleniumWrapper;
 import com.opensource.login.LoginPage;
 
-public class TC001_AdminSearchEmployee_POM {
+public class TC001_Admin_SearchEmployee_POM {
 	WebDriver driver;
 	SeleniumWrapper seleniumWrapper;
 	LoginPage login;
@@ -37,7 +37,7 @@ public class TC001_AdminSearchEmployee_POM {
   }
   
   @Test
-  public void TC001_AdminSearchEmployee_POM_Script() {
+  public void TC001_Admin_SearchEmployee_POM_Script() {
 	  
 	  //Step 1
 	  login.setup(GlobalVariables.QA_URL);
