@@ -13,6 +13,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.opensource.base.SeleniumWrapper;
+
 public class TC003_Admin_AddNewUser {
 
 	@BeforeTest
@@ -38,6 +40,8 @@ public class TC003_Admin_AddNewUser {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		SeleniumWrapper selenium = new SeleniumWrapper(driver);
+		selenium.takeScreenshot("Not");
 
 		// Step 2 - Enter Username and Password
 		Reporter.log("Enter Username and Password");

@@ -66,7 +66,7 @@ public class TC001_Admin_SearchEmployee {
 //		Assert.assertEquals(username, "Admin");
 		
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(username, "Admon");
+		softAssert.assertEquals(username, "Admin");
 		
 		//Step 8 - Log out
 		Reporter.log("Log out");

@@ -27,6 +27,7 @@ public class LoginPage extends SeleniumWrapper{
 	 */
 	public void setup(String url) {
 		launchBrowser(url);
+		takeScreenshot("lauchBrowser");
 	}
 	
 	/**
@@ -37,8 +38,10 @@ public class LoginPage extends SeleniumWrapper{
 		reportLog("Login OrangeHRM web page...");
 		type(username, txtUsername);
 		type(password, txtPassword);
+		takeScreenshot("EnteringUserPwd");
 		click(btnLogin);
 		implicitWait(5);
+		takeScreenshot("LoggedApp");
 	}
 	
 	/**
@@ -50,6 +53,7 @@ public class LoginPage extends SeleniumWrapper{
 		click(btnWelcome);
 		click(btnLogout);
 		implicitWait(5);
+		takeScreenshot("Logout");
 	}
 	
 }

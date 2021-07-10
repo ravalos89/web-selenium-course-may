@@ -9,6 +9,9 @@ import com.opensource.admin.UserManagementPage;
 import com.opensource.base.GlobalVariables;
 import com.opensource.base.SeleniumWrapper;
 import com.opensource.login.LoginPage;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class TC006_Admin_Search_Employee_POM {
 	WebDriver driver;
@@ -16,6 +19,8 @@ public class TC006_Admin_Search_Employee_POM {
 	LoginPage login;
 	UserManagementPage um;
 	String username, password;
+	ExtentReports reports;
+	ExtentTest extentTest;
 
   @BeforeTest
   public void beforeTest() {
@@ -34,6 +39,11 @@ public class TC006_Admin_Search_Employee_POM {
 	  this.username = seleniumWrapper.getCellData(this.getClass().getSimpleName(), 1, 0);
 	  this.password = seleniumWrapper.getCellData(this.getClass().getSimpleName(), 1, 1);
 	  
+	  // Reports
+	  reports = new ExtentReports("C:\\Users\\ravalos\\git\\web-selenium-course-may\\"
+	  		+ "AutomationCooltestersMay\\test-output\\screenshots\\7_10_2021\\TC001\\TC001.html");
+	  extentTest = reports.startTest(this.getClass().getSimpleName());
+	  
   }
   
   @Test
@@ -44,6 +54,11 @@ public class TC006_Admin_Search_Employee_POM {
 	  
 	  //Step 2
 	  login.loginOrange(username, password);
+	  
+	  seleniumWrapper.sleep(1);
+	  extentTest.log(LogStatus.PASS, "Login"+extentTest.addScreenCapture(seleniumWrapper.takeScreenshot("login")));
+	  reports.endTest(extentTest);
+	  reports.flush();
 	  
 	  //Step 3
 	  um.validateLoginSuccessfully();

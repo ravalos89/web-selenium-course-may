@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching... https://opensource-demo.orangehrmlive.com/ application]]>
+    </line>
+    <line>
+      <![CDATA[Login OrangeHRM web page...]]>
+    </line>
+    <line>
+      <![CDATA[Validate that you have logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Click Admin - Go to the admin page]]>
+    </line>
+    <line>
+      <![CDATA[Search username in field 'Username']]>
+    </line>
+    <line>
+      <![CDATA[Verify username exist in table]]>
+    </line>
+    <line>
+      <![CDATA[Logout OrangeHRM web page...]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-10T14:49:30Z" name="Default suite" finished-at="2021-07-10T14:49:42Z" duration-ms="11865">
+    <groups>
+    </groups>
+    <test started-at="2021-07-10T14:49:30Z" name="Default test" finished-at="2021-07-10T14:49:42Z" duration-ms="11865">
+      <class name="com.opensource.admin.qa.TC006_Admin_Search_Employee_POM">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.opensource.admin.qa.TC006_Admin_Search_Employee_POM@5495333e]" started-at="2021-07-10T14:49:30Z" name="beforeTest" finished-at="2021-07-10T14:49:33Z" duration-ms="2578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TC006_Admin_Search_Employee_POM_Script()[pri:0, instance:com.opensource.admin.qa.TC006_Admin_Search_Employee_POM@5495333e]" started-at="2021-07-10T14:49:33Z" name="TC006_Admin_Search_Employee_POM_Script" finished-at="2021-07-10T14:49:42Z" duration-ms="9206" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching... https://opensource-demo.orangehrmlive.com/ application]]>
+            </line>
+            <line>
+              <![CDATA[Login OrangeHRM web page...]]>
+            </line>
+            <line>
+              <![CDATA[Validate that you have logged in successfully]]>
+            </line>
+            <line>
+              <![CDATA[Click Admin - Go to the admin page]]>
+            </line>
+            <line>
+              <![CDATA[Search username in field 'Username']]>
+            </line>
+            <line>
+              <![CDATA[Verify username exist in table]]>
+            </line>
+            <line>
+              <![CDATA[Logout OrangeHRM web page...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC006_Admin_Search_Employee_POM_Script -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.opensource.admin.qa.TC006_Admin_Search_Employee_POM@5495333e]" started-at="2021-07-10T14:49:42Z" name="afterTest" finished-at="2021-07-10T14:49:42Z" duration-ms="67" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.opensource.admin.qa.TC006_Admin_Search_Employee_POM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
