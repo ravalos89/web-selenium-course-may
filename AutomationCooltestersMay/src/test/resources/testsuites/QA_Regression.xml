@@ -17,4 +17,9 @@
 			<class name="com.opensource.admin.qa.TC001_Admin_SearchEmployee" />
 		</classes>
 	</test> <!-- Test -->
+		<test name="TC008_Admin_Login">
+		<classes>
+			<class name="com.opensource.admin.qa.TC008_Admin_Login" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
