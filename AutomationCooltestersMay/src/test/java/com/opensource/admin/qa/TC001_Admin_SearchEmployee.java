@@ -22,7 +22,7 @@ public class TC001_Admin_SearchEmployee {
 	@Test
 	public void TC001_Admin_SearchEmployee_Script() {
 
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver2.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// Step 1 - Open Browser "OrangeHRM" web page
