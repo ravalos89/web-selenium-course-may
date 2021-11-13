@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression_QA_Cooltesters" parallel="tests"
-	thread-count="2">
+	thread-count="4">
 
 	<test name="TC001">
 		<classes>
@@ -17,6 +17,11 @@
 		<classes>
 			<class
 				name="com.opensource.admin.qa.TC001_Admin_SearchEmployee" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TC004">
+		<classes>
+			<class name="com.google.GoogleTest" />
 		</classes>
 	</test> <!-- Test -->
 
