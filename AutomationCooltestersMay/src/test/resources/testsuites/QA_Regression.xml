@@ -24,5 +24,10 @@
 			<class name="com.google.GoogleTest" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="TC005">
+		<classes>
+			<class name="com.google.Ricardo" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
