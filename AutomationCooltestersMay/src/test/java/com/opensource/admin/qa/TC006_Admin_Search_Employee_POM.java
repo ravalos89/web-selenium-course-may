@@ -41,9 +41,9 @@ public class TC006_Admin_Search_Employee_POM {
 	  this.password = seleniumWrapper.getCellData(this.getClass().getSimpleName(), 1, 1);
 	  
 	  // Reports
-//	  reports = new ExtentReports("C:\\Users\\ravalos\\git\\web-selenium-course-may\\"
-//	  		+ "AutomationCooltestersMay\\test-output\\screenshots\\7_10_2021\\TC001\\TC001.html");
-//	  extentTest = reports.startTest(this.getClass().getSimpleName());
+	  reports = new ExtentReports("C:\\Users\\ravalos\\git\\web-selenium-course-may\\"
+	  		+ "AutomationCooltestersMay\\test-output\\screenshots\\7_10_2021\\TC001\\TC001.html");
+	  extentTest = reports.startTest(this.getClass().getSimpleName());
 	  
   }
   
@@ -57,9 +57,9 @@ public class TC006_Admin_Search_Employee_POM {
 	  login.loginOrange(username, password);
 	  
 	  seleniumWrapper.sleep(1);
-//	  extentTest.log(LogStatus.PASS, "Login"+extentTest.addScreenCapture(seleniumWrapper.takeScreenshot("login")));
-//	  reports.endTest(extentTest);
-//	  reports.flush();
+	  extentTest.log(LogStatus.PASS, "Login"+extentTest.addScreenCapture(seleniumWrapper.takeScreenshot("login")));
+	  reports.endTest(extentTest);
+	  reports.flush();
 	  
 	  //Step 3
 	  um.validateLoginSuccessfully();

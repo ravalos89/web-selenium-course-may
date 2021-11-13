@@ -19,7 +19,7 @@
 	</test> <!-- Test -->
 		<test name="TC008_Admin_Login">
 		<classes>
-			<class name="com.opensource.admin.qa.TC008_Admin_Login" />
+			<class name="com.opensource.admin.qa.TC003_Admin_AddNewUser" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

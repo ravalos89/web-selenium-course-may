@@ -1,5 +1,5 @@
 {
-  "TC001_AdminSearchEmployee_POM": {
+  "TC001": {
 	  "username":"Admin",
 	  "password":"admin123"
   }

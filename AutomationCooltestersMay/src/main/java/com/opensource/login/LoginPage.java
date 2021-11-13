@@ -18,7 +18,7 @@ public class LoginPage extends SeleniumWrapper{
 	By btnLogin = By.xpath("//input[@id='btnLogin']");
 	By btnWelcome = By.xpath("//a[@id=\"welcome\"]");
 	By btnLogout = By.xpath("//a[contains(text(), 'Logout')]");
-	
+
 	//Metodos
 	
 	/**

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Regression_QA_Cooltesters]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TC006_Admin_Search_Employee_POM(failed)">
+    <classes>
+      <class name="com.opensource.admin.qa.TC006_Admin_Search_Employee_POM">
+        <methods>
+          <include name="TC006_Admin_Search_Employee_POM_Script"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.opensource.admin.qa.TC006_Admin_Search_Employee_POM -->
+    </classes>
+  </test> <!-- TC006_Admin_Search_Employee_POM(failed) -->
+  <test thread-count="2" parallel="tests" name="TC003_Admin_AddNewUser(failed)">
+    <classes>
+      <class name="com.opensource.admin.qa.TC003_Admin_AddNewUser">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="TC003_Admin_AddNewUser_Script"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.opensource.admin.qa.TC003_Admin_AddNewUser -->
+    </classes>
+  </test> <!-- TC003_Admin_AddNewUser(failed) -->
+  <test thread-count="2" parallel="tests" name="TC001_Admin_SearchEmployee(failed)">
+    <classes>
+      <class name="com.opensource.admin.qa.TC001_Admin_SearchEmployee">
+        <methods>
+          <include name="TC001_Admin_SearchEmployee_Script"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.opensource.admin.qa.TC001_Admin_SearchEmployee -->
+    </classes>
+  </test> <!-- TC001_Admin_SearchEmployee(failed) -->
+  <test thread-count="2" parallel="tests" name="TC008_Admin_Login(failed)">
+    <classes>
+      <class name="com.opensource.admin.qa.TC003_Admin_AddNewUser">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="TC003_Admin_AddNewUser_Script"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.opensource.admin.qa.TC003_Admin_AddNewUser -->
+    </classes>
+  </test> <!-- TC008_Admin_Login(failed) -->
+</suite> <!-- Failed suite [Regression_QA_Cooltesters] -->
