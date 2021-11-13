@@ -32,7 +32,7 @@ public class TC003_Admin_AddNewUser {
 		String newUser = "CarlosGutierrez"+random;
 		String mainPwd = "admin123";
 
-		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver2.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chrome/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// Step 1 - Open Browser "OrangeHRM" web page

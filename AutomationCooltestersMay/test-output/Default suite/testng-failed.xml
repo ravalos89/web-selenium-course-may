@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opensource.admin.qa.TC006_Admin_Search_Employee_POM">
+      <class name="com.google.GoogleTest">
         <methods>
-          <include name="TC006_Admin_Search_Employee_POM_Script"/>
+          <include name="tc001"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.opensource.admin.qa.TC006_Admin_Search_Employee_POM -->
+      </class> <!-- com.google.GoogleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

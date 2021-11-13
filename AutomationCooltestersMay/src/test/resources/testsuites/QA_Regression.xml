@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression_QA_Cooltesters" parallel="tests" thread-count="2">
-	<test name="TC006_Admin_Search_Employee_POM">
+<suite name="Regression_QA_Cooltesters" parallel="tests"
+	thread-count="2">
+
+	<test name="TC001">
+		<classes>
+			<class name="com.google.GoogleTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TC002">
+		<classes>
+			<class name="com.opensource.admin.qa.TC003_Admin_AddNewUser" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TC003">
 		<classes>
 			<class
-				name="com.opensource.admin.qa.TC006_Admin_Search_Employee_POM" />
+				name="com.opensource.admin.qa.TC001_Admin_SearchEmployee" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="TC003_Admin_AddNewUser">
-		<classes>
-			<class name="com.opensource.admin.qa.TC003_Admin_AddNewUser" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="TC001_Admin_SearchEmployee">
-		<classes>
-			<class name="com.opensource.admin.qa.TC001_Admin_SearchEmployee" />
-		</classes>
-	</test> <!-- Test -->
-		<test name="TC008_Admin_Login">
-		<classes>
-			<class name="com.opensource.admin.qa.TC003_Admin_AddNewUser" />
-		</classes>
-	</test> <!-- Test -->
+
 </suite> <!-- Suite -->
