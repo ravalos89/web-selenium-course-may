@@ -9,7 +9,7 @@
 		</classes>
 	</test> <!-- Test -->
 	
-	<test name="">
+	<test name="TC002">
 		<classes>
 			<class name="com.google.GoogleTest" />
 		</classes>
