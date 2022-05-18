@@ -11,7 +11,7 @@
 	
 	<test name="TC002">
 		<classes>
-			<class name="com.google.GoogleTest" />
+			<class name="com.google.GoogleTest234" />
 		</classes>
 	</test> <!-- Test -->
 
