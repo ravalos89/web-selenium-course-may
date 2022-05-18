@@ -8,21 +8,5 @@
 			<class name="com.google.GoogleTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="TC002">
-		<classes>
-			<class name="com.opensource.admin.qa.TC003_Admin_AddNewUser" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="TC003">
-		<classes>
-			<class
-				name="com.opensource.admin.qa.TC001_Admin_SearchEmployee" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="TC004">
-		<classes>
-			<class name="com.google.GoogleTest" />
-		</classes>
-	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
