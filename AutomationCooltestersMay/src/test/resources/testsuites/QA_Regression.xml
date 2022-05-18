@@ -8,5 +8,11 @@
 			<class name="com.google.GoogleTest" />
 		</classes>
 	</test> <!-- Test -->
+	
+	<test name="TC002">
+		<classes>
+			<class name="com.google.GoogleTest" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
